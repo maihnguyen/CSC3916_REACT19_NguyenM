@@ -51,7 +51,7 @@ const MovieDetail = () => {
             </h4>
           </ListGroupItem>
         </ListGroup>
-        <Card.Body>
+        <Card.Body className="card-body bg-white">
           {selectedMovie.reviews.map((review, i) => (
             <p key={i}>
               <b>{review.username}</b>&nbsp; {review.review} &nbsp; <BsStarFill />{' '}
